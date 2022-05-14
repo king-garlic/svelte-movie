@@ -151,11 +151,41 @@ You can preview the production build with `npm run preview`.
         git push -u origin main
 
 
+    10. 위 명령 터미널에서 실행
+
+
+        C:\job\front-end\svelte\svelte-movie>echo "# svelte-movie" >> README.md
+
+        C:\job\front-end\svelte\svelte-movie>git init
+        Initialized empty Git repository in C:/job/front-end/svelte/svelte-movie/.git/
+
+        C:\job\front-end\svelte\svelte-movie>git add README.md
+        warning: LF will be replaced by CRLF in README.md.
+        The file will have its original line endings in your working directory
+
+        C:\job\front-end\svelte\svelte-movie>git commit -m "first commit"
+        [master (root-commit) 4e039e9] first commit
+        1 file changed, 177 insertions(+)
+        create mode 100644 README.md
+
+        C:\job\front-end\svelte\svelte-movie>git branch -M main
+
+        C:\job\front-end\svelte\svelte-movie>git remote add origin https://github.com/king-garlic/svelte-movie.git
+
+        C:\job\front-end\svelte\svelte-movie>git push -u origin main
+        Enumerating objects: 3, done.
+        Counting objects: 100% (3/3), done.
+        Delta compression using up to 8 threads
+        Compressing objects: 100% (2/2), done.
+        Writing objects: 100% (3/3), 2.00 KiB | 2.00 MiB/s, done.
+        Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+        To https://github.com/king-garlic/svelte-movie.git
+        * [new branch]      main -> main
+        Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 
 
-    10. 
-    11. 
+    11. https://kit.svelte.dev/docs/adapters
     12. 
     13. 
     14. 
